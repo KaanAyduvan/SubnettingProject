@@ -1,0 +1,15 @@
+Ağ Tasarımı ve Subnetting Projesi Amaç:IP adresleme, subnetting ve ağ cihazlarını yapılandırma becerilerini kapsamlı bir şekilde uygulamalarını sağlamak.
+Proje Tanımı:Yüklenen ağ topolojisi şemasını kullanarak, verilen 192.168.20.0/24 ip adres bloğunu dört eşit alt ağa bölünve her bir bilgisayara uygun bir IP adresi, subnet maskesi ve varsayılan ağ geçidi atayın.
+
+
+1.192.168.20.0/24 IP adres bloğunu dört alt ağa bölecek şekilde bir subnetting planı oluşturuldu.
+
+Her alt ağ, en azından bir yönlendirici arayüzü ve bir bilgisayar barındıracak şekilde tasarlandı.
+
+Her alt ağ için ağ adresini, kullanılabilir IP adres aralığını, ağ geçidi ve yayın adresini belirlendi ve hesaplandı.
+
+Aşağıdaki cihazları ve yönlendirici arayüzlerini belirlediğiniz IP adres şemasına göre yapılandırıldı ve konfigüre edildi:•PC0, PC1, PC2, PC3•Router'ın Eth0/0, Eth1/0, Eth2/0, Eth3/0 arayüzleri
+
+Yönlendirici üzerinde uygun arayüzleri yapılandırarak tüm bilgisayarların birbirleriyle ve dış dünya ile iletişim kurabilmesi için gerekli olan statik veya dinamik yönlendirmeleri ayarlandı.
+
+ping komutunu kullanarak tüm bilgisayarlar arasında başarılı bir iletişim olduğunu test edin ve sonuçları kaydedildi.
